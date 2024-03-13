@@ -23,30 +23,30 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className='flex justify-center items-center w-full h-full'>
+        <div className="flex justify-center items-center w-full h-full">
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            className="w-[60%] h-[60%] object-contain"
           />
         </div>
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
         <p
-          className='text-secondary text-[16px] font-semibold'
+          className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
           {experience.company_name}
         </p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+      <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className="text-white-100 text-[14px] pl-1 tracking-wider"
           >
             {point}
           </li>
@@ -60,15 +60,22 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+        <h2 className={`${styles.sectionHeadText} text-center`}>Who We are?</h2>
+        <p className={`mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center`}>
+          Welcome to Coinkraft! Since 2019, we've been pioneers in the crypto
+          space, specializing in custom graphics that define brands and
+          projects. Our portfolio boasts collaborations with industry leaders,
+          including the renowned Baby Doge. At Coinkraft, we merge real-life
+          branding expertise with digital finesse, ensuring your project stands
+          out in the crowded crypto landscape. Our commitment to excellence
+          guarantees tailored solutions that captivate audiences and drive
+          engagement. With Coinkraft, your vision becomes reality. Explore our
+          services and let us craft the perfect graphic identity for your
+          venture. Trust Coinkraft – where creativity meets crypto innovation.
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
