@@ -17,12 +17,17 @@ import {
   figma,
   docker,
   meta,
+  LaunchWall,
+  CheckDot,
   starbucks,
   tesla,
   shopify,
-  carrent,
+  MilkywayEX,
+  getrekt,
   jobit,
   tripguide,
+  welcome,
+  hodl,
   threejs,
 } from "../assets";
 
@@ -43,11 +48,6 @@ export const navLinks = [
     id: "faq",
     title: "Faq",
   },
-
-  
-
-
-
 ];
 
 const services = [
@@ -147,9 +147,7 @@ const experiences = [
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
-    points: [
- "",
-    ],
+    points: [""],
   },
   // {
   //   title: "React Native Developer",
@@ -221,66 +219,128 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MilkywayEX",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
     tags: [
       {
-        name: "react",
+        name: "hashtag",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "hashtag",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "hashtag",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: MilkywayEX,
+  },
+  {
+    name: "Launch Wall",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    tags: [
+      {
+        name: "hashtag",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hashtag",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hashtag",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: LaunchWall,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "CheckDot",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
     tags: [
       {
-        name: "react",
+        name: "hashtag",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "hashtag",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "hashtag",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: CheckDot,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Get Rekt",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
     tags: [
       {
-        name: "nextjs",
+        name: "hashtag",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "hashtag",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "hashtag",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: getrekt,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Welcome",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    tags: [
+      {
+        name: "hashtag",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hashtag",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hashtag",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: welcome,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Hodl",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    tags: [
+      {
+        name: "hashtag",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hashtag",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hashtag",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hodl,
     source_code_link: "https://github.com/",
   },
 ];
