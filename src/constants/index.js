@@ -87,8 +87,8 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Get Rekt",
+    icon: getrekt,
   },
   {
     name: "CSS 3",
