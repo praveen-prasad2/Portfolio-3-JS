@@ -27,6 +27,15 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import customsticker from "./custom-sticker.svg";
+import drawnsticker from "./drawn-sticker.svg";
+import branding from "./branding.svg";
+import mascot from "./mascot.svg";
+import nft from "./nft.svg";
+import pitchdeck from "./pitchdeck.svg";
+import socialposter from "./socialposter.svg";
+import whitepaper from "./whitepaper.svg";
+
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import MilkywayEX from "./MilkywayEX.jpg";
@@ -70,5 +79,13 @@ export {
   CheckDot,
   getrekt,
   welcome,
-  hodl
+  hodl,
+  customsticker,
+  drawnsticker,
+  branding,
+  mascot,
+  nft,
+  pitchdeck,
+  socialposter,
+  whitepaper,
 };

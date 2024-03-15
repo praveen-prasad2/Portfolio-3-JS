@@ -4,9 +4,13 @@
     <style>
       .cls-1 {
         stroke-width: 0px;
-        fill:white;
+        fill:url(#gradient)
       }
     </style>
+     <linearGradient id="gradient" gradientTransform="rotate(90)">
+            <stop offset="0%" stop-color="#00cea8" />
+            <stop offset="100%" stop-color="#bf61ff" />
+        </linearGradient>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <g>

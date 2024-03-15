@@ -29,6 +29,14 @@ import {
   welcome,
   hodl,
   threejs,
+  customsticker,
+  drawnsticker,
+  branding,
+  mascot,
+  nft,
+  pitchdeck,
+  socialposter,
+  whitepaper,
 } from "../assets";
 
 export const navLinks = [
@@ -53,35 +61,35 @@ export const navLinks = [
 const services = [
   {
     title: "Custom stickers",
-    icon: icon,
+    icon: customsticker,
   },
   {
     title: "Hand drawn stickers",
-    icon: mobile,
+    icon: drawnsticker,
   },
   {
     title: "Logo & Branding",
-    icon: backend,
+    icon: branding,
   },
   {
     title: "Mascot",
-    icon: creator,
+    icon: mascot,
   },
   {
     title: "NFT designing",
-    icon: web,
+    icon: nft,
   },
   {
     title: "Whitepaper designing",
-    icon: mobile,
+    icon: pitchdeck,
   },
   {
     title: "Pitch deck designing",
-    icon: backend,
+    icon: socialposter,
   },
   {
     title: "Social media posters",
-    icon: creator,
+    icon: whitepaper,
   },
 ];
 
