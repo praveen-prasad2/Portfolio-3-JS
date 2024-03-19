@@ -1,11 +1,8 @@
 import logo from "./logo.svg";
-
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import starbucks from "./company/starbucks.png";
-
 import customsticker from "./custom-sticker.svg";
 import drawnsticker from "./drawn-sticker.svg";
 import branding from "./branding.svg";
@@ -14,10 +11,8 @@ import nft from "./nft.svg";
 import pitchdeck from "./pitchdeck.svg";
 import socialposter from "./socialposter.svg";
 import whitepaper from "./whitepaper.svg";
-
 import MilkywayEX from "./MilkywayEX.jpg";
 import LaunchWall from "./LaunchWall.jpg";
-
 import babydoge from "./babydoge.png";
 import checkdot from "./checkdot.png";
 import cheecoin from "./cheecoin.png";
@@ -27,7 +22,6 @@ import sombra from "./sombra.png";
 import floki from "./Floki1000.jpg";
 
 // Stickers
-
 
 import sticker3 from "./sticker/3.png";
 import sticker4 from "./sticker/4.png";
@@ -47,12 +41,10 @@ import sticker17 from "./sticker/17.png";
 import sticker18 from "./sticker/18.png";
 import sticker19 from "./sticker/19.png";
 import sticker20 from "./sticker/20.png";
-
 import sticker21 from "./sticker/21.png";
 import sticker22 from "./sticker/22.png";
 import sticker23 from "./sticker/23.png";
 import sticker24 from "./sticker/24.png";
-
 import sticker30 from "./sticker/30.png";
 import sticker31 from "./sticker/31.png";
 import sticker32 from "./sticker/32.png";

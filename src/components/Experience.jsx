@@ -61,7 +61,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center`}>Who We are?</h2>
-        <p className={`mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center`}>
+        <p className={`mt-4 text-secondary text-[17px]  leading-[30px] text-center flex justify-center items-center`}>
           Welcome to Coinkraft! Since 2019, we've been pioneers in the crypto
           space, specializing in custom graphics that define brands and
           projects. Our portfolio boasts collaborations with industry leaders,
@@ -75,7 +75,7 @@ const Experience = () => {
         </p>
       </motion.div>
 
-      <div className="mt-20 flex flex-col">
+      {/* <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
@@ -84,9 +84,9 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
-      </div>
+      </div> */}
     </>
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "about");
