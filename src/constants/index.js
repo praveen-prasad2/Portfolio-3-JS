@@ -1,34 +1,7 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  icon,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
   LaunchWall,
-  CheckDot,
   starbucks,
-  tesla,
-  shopify,
   MilkywayEX,
-  getrekt,
-  jobit,
-  tripguide,
-  welcome,
-  hodl,
-  threejs,
   customsticker,
   drawnsticker,
   branding,
@@ -37,6 +10,49 @@ import {
   pitchdeck,
   socialposter,
   whitepaper,
+  babydoge,
+  checkdot,
+  cheecoin,
+  proficy,
+  rugdoc,
+  sombra,
+  floki,
+  sticker3,
+  sticker4,
+  sticker5,
+  sticker6,
+  sticker7,
+  sticker8,
+  sticker9,
+  sticker10,
+  sticker11,
+  sticker12,
+  sticker13,
+  sticker14,
+  sticker15,
+  sticker16,
+  sticker17,
+  sticker18,
+  sticker19,
+  sticker20,
+  sticker21,
+  sticker22,
+  sticker23,
+  sticker24,
+  sticker30,
+  sticker31,
+  sticker32,
+  sticker33,
+  sticker34,
+  sticker35,
+  sticker36,
+  sticker37,
+  sticker38,
+  sticker39,
+  sticker40,
+  sticker41,
+  sticker42,
+  sticker43,
 } from "../assets";
 
 export const navLinks = [
@@ -94,57 +110,152 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "Get Rekt",
-    icon: getrekt,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: sticker3,
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: sticker4,
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: sticker5,
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: sticker6,
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: sticker7,
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: sticker8,
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: sticker9,
   },
   {
     name: "git",
-    icon: git,
+    icon: sticker10,
   },
   {
     name: "figma",
-    icon: figma,
+    icon: sticker11,
   },
   {
     name: "docker",
-    icon: docker,
+    icon: sticker12,
+  },
+  {
+    name: "docker",
+    icon: sticker13,
+  },
+  {
+    name: "docker",
+    icon: sticker14,
+  },
+  {
+    name: "docker",
+    icon: sticker15,
+  },
+  {
+    name: "docker",
+    icon: sticker16,
+  },
+  {
+    name: "docker",
+    icon: sticker17,
+  },
+  {
+    name: "docker",
+    icon: sticker18,
+  },
+  {
+    name: "docker",
+    icon: sticker19,
+  },
+  {
+    name: "docker",
+    icon: sticker20,
+  },
+
+  {
+    name: "CSS 3",
+    icon: sticker21,
+  },
+  {
+    name: "JavaScript",
+    icon: sticker22,
+  },
+  {
+    name: "TypeScript",
+    icon: sticker23,
+  },
+  {
+    name: "React JS",
+    icon: sticker24,
+  },
+
+  {
+    name: "git",
+    icon: sticker30,
+  },
+  {
+    name: "figma",
+    icon: sticker31,
+  },
+  {
+    name: "docker",
+    icon: sticker32,
+  },
+  {
+    name: "docker",
+    icon: sticker33,
+  },
+  {
+    name: "docker",
+    icon: sticker34,
+  },
+  {
+    name: "docker",
+    icon: sticker35,
+  },
+  {
+    name: "docker",
+    icon: sticker36,
+  },
+  {
+    name: "docker",
+    icon: sticker37,
+  },
+  {
+    name: "docker",
+    icon: sticker38,
+  },
+  {
+    name: "docker",
+    icon: sticker39,
+  },
+  {
+    name: "docker",
+    icon: sticker40,
+  },
+  {
+    name: "docker",
+    icon: sticker41,
+  },
+  {
+    name: "docker",
+    icon: sticker42,
+  },
+  {
+    name: "docker",
+    icon: sticker43,
   },
 ];
 
@@ -228,127 +339,181 @@ const testimonials = [
 const projects = [
   {
     name: "MilkywayEX",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    description: "",
     tags: [
-      {
-        name: "hashtag",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "green-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: MilkywayEX,
   },
   {
     name: "Launch Wall",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    description: "",
     tags: [
-      {
-        name: "hashtag",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "green-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: LaunchWall,
     source_code_link: "https://github.com/",
   },
   {
     name: "CheckDot",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    description: "",
     tags: [
-      {
-        name: "hashtag",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "green-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: CheckDot,
+    image: checkdot,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Get Rekt",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    name: "Baby Doge",
+    description: "",
     tags: [
-      {
-        name: "hashtag",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "green-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: getrekt,
+    image: babydoge,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Welcome",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    name: "Cheecoin",
+    description: "",
     tags: [
-      {
-        name: "hashtag",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "green-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: welcome,
+    image: cheecoin,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Hodl",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum ut voluptatem ipsa. Et omnis sit dolore maiores, nobis provident.",
+    name: "Proficy",
+    description: "",
     tags: [
-      {
-        name: "hashtag",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "green-text-gradient",
-      },
-      {
-        name: "hashtag",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: hodl,
+    image: proficy,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Rugdoc",
+    description: "",
+    tags: [
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: rugdoc,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Sombra Network",
+    description: "",
+    tags: [
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: sombra,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Floki1000",
+    description: "",
+    tags: [
+      // {
+      //   name: "hashtag",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "hashtag",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: floki,
     source_code_link: "https://github.com/",
   },
 ];
