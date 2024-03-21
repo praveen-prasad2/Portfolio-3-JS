@@ -1,13 +1,13 @@
-import React, { useRef, useState } from "react";
+ import React, { useRef, useState, forwardRef, useImperativeHandle } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-const Contact = () => {
+
+const Contact = forwardRef((props, ref) => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Coinkraft",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "praveenprasad2510@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -63,6 +63,11 @@ const Contact = () => {
         }
       );
   };
+
+  // Expose handleSubmit function through ref
+  useImperativeHandle(ref, () => ({
+    handleSubmit
+  }));
 
   return (
     <div
@@ -125,6 +130,6 @@ const Contact = () => {
 
     </div>
   );
-};
+});
 
 export default SectionWrapper(Contact, "contact");

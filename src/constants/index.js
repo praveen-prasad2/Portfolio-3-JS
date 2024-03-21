@@ -156,69 +156,69 @@ const technologies = [
     icon: sticker11,
   },
   {
-    name: "docker",
+    name: "docker1",
     icon: sticker12,
   },
   {
-    name: "docker",
+    name: "docker2",
     icon: sticker13,
   },
   {
-    name: "docker",
+    name: "docker3",
     icon: sticker14,
   },
   {
-    name: "docker",
+    name: "docker4",
     icon: sticker15,
   },
   {
-    name: "docker",
+    name: "docker5",
     icon: sticker16,
   },
   {
-    name: "docker",
+    name: "docker6",
     icon: sticker17,
   },
   {
-    name: "docker",
+    name: "docker7",
     icon: sticker18,
   },
   {
-    name: "docker",
+    name: "docker8",
     icon: sticker19,
   },
   {
-    name: "docker",
+    name: "docker9",
     icon: sticker20,
   },
 
   {
-    name: "CSS 3",
+    name: "CSS13",
     icon: sticker21,
   },
   {
-    name: "JavaScript",
+    name: "JavaScript2",
     icon: sticker22,
   },
   {
-    name: "TypeScript",
+    name: "TypeScript2",
     icon: sticker23,
   },
   {
-    name: "React JS",
+    name: "React JS2",
     icon: sticker24,
   },
 
   {
-    name: "git",
+    name: "git2",
     icon: sticker30,
   },
   {
-    name: "figma",
+    name: "figma2",
     icon: sticker31,
   },
   {
-    name: "docker",
+    name: "docker11",
     icon: sticker32,
   },
   {
@@ -226,43 +226,43 @@ const technologies = [
     icon: sticker33,
   },
   {
-    name: "docker",
+    name: "docker12",
     icon: sticker34,
   },
   {
-    name: "docker",
+    name: "docker13",
     icon: sticker35,
   },
   {
-    name: "docker",
+    name: "docker14",
     icon: sticker36,
   },
   {
-    name: "docker",
+    name: "docker15",
     icon: sticker37,
   },
   {
-    name: "docker",
+    name: "docker16",
     icon: sticker38,
   },
   {
-    name: "docker",
+    name: "docker17",
     icon: sticker39,
   },
   {
-    name: "docker",
+    name: "docker18",
     icon: sticker40,
   },
   {
-    name: "docker",
+    name: "docker19",
     icon: sticker41,
   },
   {
-    name: "docker",
+    name: "docke20",
     icon: sticker42,
   },
   {
-    name: "docker",
+    name: "docker21",
     icon: sticker43,
   },
 ];
